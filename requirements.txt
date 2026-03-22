@@ -3,9 +3,14 @@
 faster-whisper
 nvidia-cublas-cu12
 nvidia-cudnn-cu12
-# pynput
-# pydub
-# simpleaudio
+python-dotenv
+pydub
+pyannote.audio
+
+# PyTorch (CUDA 12.1 対応版、pyannote.audioで利用)
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchaudio
 
 # その他のユーティリティ
 # python-dotenv
